@@ -18,5 +18,5 @@ jobs:
       - name: Build container
         uses: docker/build-push-action@v2
         with:
-          repository: userlerueda/publish-packages/game
-          tag_with_sha: true
+          tags: userlerueda/publish-packages:latest
+          push: true
